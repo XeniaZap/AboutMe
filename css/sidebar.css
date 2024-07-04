@@ -1,3 +1,20 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #251b1b;
+}
+
+.root-container {
+    display: flex;
+    width: 1000px;
+    height: inherit;
+}
+
+
 .sidebar-container {
     width: 300px;
     background-color: #202020;

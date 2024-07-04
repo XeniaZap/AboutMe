@@ -27,14 +27,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-}
 
-    .sidebar-links-li {
+    .header-links-li {
         padding: 14px 14px;
         min-inline-size: max-content;
     }
 
-
+}
 
 .header-links a {
     text-decoration: none;
@@ -44,21 +43,29 @@ body {
     color: white;
 }
 
-.prof-links {
-    margin-left: 100px;
-}
 
 .nav-input input {
     width: 212px;
     height: 40px;
     background-color: #202020;
-    border: none;
+    border-color: #202020;
+    color: white;
+    padding:0 8px;
+
 }
 
-.main-container {
-    background-color: #181818;
-    height: 100%;
+.nav-input input::before {
+    opacity: inherit;
 }
 
 
-/*запуталась в родительских контейнерах */
+
+.prof-links {
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 auto;
+}
+
