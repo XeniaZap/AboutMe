@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet");
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #251b1b;
+}
+
+.root-container {
+    display: flex;
+    width: 1000px;
+    height: inherit;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #181818;
+    height: 100%;
+
+}
+
+.btn-two {
+    padding: 50px 8px;
+    margin-bottom: 30px;
+}
+
+.btn-page-two {
+    padding: 0 120px;
+    border: 0;
+    background-color: #202020;
+    color: #828282;
+}
+/*Рамка у кнопок!!!*/
+
+.title-page-two {
+    padding: 0 25px;
+    font-size: 18px;
+    line-height: 1.2;
+    color: white;
+}
+
+.small-title {
+    padding: 0 25px;
+    color:#828282;
+    font-size: 12px;
+}
+
+/*выравнивание общего контейнера, чтобы избавиться от паддингов*/
+
+.text-page-two {
+    margin-bottom: 23px;
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+.image-page-two {
+    padding: 0 25px;
+    margin-bottom: 23px;
+    width: 700px;
+}
+
+.links-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.link {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: contents;
+}
+
+.links-information {
+    margin: 0;
+}
+
+.links-information a {
+    padding: 25px;
+    font-size: 14px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: #F3EBA2;
+    display: block;
+
+}
+
+.discussion-title {
+    padding: 0 25px;
+    font-size: 18px;
+    line-height: 1.2;
+    color: white;
+}
+
+.discussion-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0 25px;
+}
+
+.discussion-form input {
+max-width: 600px;
+width: 100%;
+padding: 10px;
+border: none;
+background-color: #333;
+color: #fff; /
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.discussion-btn {
+    padding: 10px 20px;
+    background-color: #3137C9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.discussion-btn:hover {
+    background-color: #0056b3;
+}
+
+.author-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.author-avatar {
+    margin-left: 20px;
+}
+
+.author-name {
+    color: white;
+    /*margin-left: 421px;*/
+
+}
+
+/*Не знаю, как поставить аватар и имя в одну строку*/
+
+
+.author-text {
+    padding: 0 25px;
+font-size: 12px;
+    line-height: 1.2;
+    color: white;
+}
+
+.author-btn {
+    padding: 0 25px;
+color: #107EFF;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.author-avatar2 {
+    margin-top: 28px;
+}
