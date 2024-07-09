@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet");
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #251b1b;
+}
+
+.root-container {
+    display: flex;
+    width: 1000px;
+    height: inherit;
+}
+
+.main-container {
+    display: flex;
+    background-color: #181818;
+    height: 100%;
+}
+
+
+.page-three-title {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 0 25px;
+    font-size: 21px;
+    line-height: 1.2;
+    color: white;
+}
+
+
+.main-text {
+    background-color: #202020;
+    padding: 30px 50px;
+}
+
+.main-desc {
+    font-size: 14px;
+    line-height: 1.5;
+    color: white;
+}
+
+.main-data {
+    font-size: 12px;
+    color: #828282;
+}
+
+
+.main-code-post {
+    padding: 60px 26px;
+    background-color: #202020;
+    margin-bottom: 30px;
+}
+
+
+
+.post-title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.2;
+    color: white;
+}
+
+.main-post {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #D2D2D2;
+}
+
+.date-post {
+
+    font-size: 12px;
+    line-height: 1.2;
+    color: #828282;
+}
+
+.write-post {
+    margin-left: 306px;
+
+}
+
+.title {
+    padding: 30px 50px;
+    text-decoration: none;
+    color: #3137C9;
+}
+
+
+.desctop-sale {
+    padding: 60px 26px;
+    background-color: #202020;
+    margin-bottom: 30px;
+}
+
+.sale-des {
+    padding: 30px 50px;
+}
+
+.sale-title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.2;
+    color: white;
+}
+
+.title-des {
+    text-decoration: none;
+    color: #3137C9;
+}
+
+.confere-main {
+    padding: 60px 26px;
+    background-color: #202020;
+    margin-bottom: 30px;
+}
+
+
+
+.conf-title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.2;
+    color: white;
+}
+
+.conf-text {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #D2D2D2;
+    word-break: break-all;
+}
+
+.title-conf {
+    text-decoration: none;
+    color: #3137C9;
+}
+
+
+.right-btn {
+    border-radius: 25px;
+    height: 40px;
+    width: 120px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #3137C9;
+    color: white;
+}
