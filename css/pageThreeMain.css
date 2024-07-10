@@ -1,17 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet");
 
 
-
+.main-container {
+    padding: 50px 60px;
+}
 
 .page-three-title {
-    margin-top: 100px;
     margin-bottom: 30px;
-    padding: 0 25px;
     font-size: 21px;
     line-height: 1.2;
     color: white;
 }
 
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-l {
+    text-decoration: none;
+    color: #3137C9;
+}
 
 .main-text {
     background-color: #202020;
@@ -64,11 +74,7 @@
 
 }
 
-.title {
-    padding: 30px 50px;
-    text-decoration: none;
-    color: #3137C9;
-}
+
 
 
 .desctop-sale {

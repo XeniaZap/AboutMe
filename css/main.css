@@ -106,12 +106,16 @@ body {
     }
 
 .title {
-    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.title-l {
     text-decoration: none;
     color: #3137C9;
 }
-
-
 .desctop-sale {
     padding: 60px 26px;
     background-color: #202020;
