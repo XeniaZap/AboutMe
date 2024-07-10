@@ -1,62 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet");
-body {
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    background-color: #251b1b;
-}
 
-.root-container {
-    display: flex;
-    width: 1000px;
-    height: inherit;
-}
 
-.main-section {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    background-color: #181818;
-    height: 100%;
 
+.page-section {
+    background-color: #202020;
 }
 
 .btn-two {
-    padding: 50px 8px;
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
+
 .btn-page-two {
-    padding: 0 120px;
-    border: 0;
     background-color: #202020;
     color: #828282;
 }
-/*Рамка у кнопок!!!*/
+
+.title-container {
+    padding: 60px 26px;
+
+}
 
 .title-page-two {
-    padding: 0 25px;
     font-size: 18px;
     line-height: 1.2;
     color: white;
 }
 
 .small-title {
-    padding: 0 25px;
     color:#828282;
     font-size: 12px;
 }
 
-/*выравнивание общего контейнера, чтобы избавиться от паддингов*/
+.title-link-two {
+    font-size: 18px;
+    line-height: 1.2;
+    color: white;
+    padding: 0 25px;
+}
 
 .text-page-two {
+
     margin-bottom: 23px;
     padding: 0 25px;
+    font-family: Roboto,sans-serif;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 21px;
     color: #FFFFFF;
 }
 
@@ -98,6 +90,7 @@ body {
     font-size: 18px;
     line-height: 1.2;
     color: white;
+    margin-bottom: 16px;
 }
 
 .discussion-form {
@@ -133,35 +126,31 @@ border-radius: 5px;
     background-color: #0056b3;
 }
 
-.author-container {
+.comment-one {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
+    padding: 0 25px;
+
 }
 
-.author-avatar {
-    margin-left: 20px;
-}
+
 
 .author-name {
     color: white;
-    /*margin-left: 421px;*/
+    padding:0 16px;
 
 }
 
-/*Не знаю, как поставить аватар и имя в одну строку*/
-
 
 .author-text {
-    padding: 0 25px;
-font-size: 12px;
-    line-height: 1.2;
+    padding: 15px 25px;
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    line-height: 14px;
     color: white;
 }
 
 .author-btn {
-    padding: 0 25px;
+    padding: 15px 25px;
 color: #107EFF;
     cursor: pointer;
     font-size: 12px;

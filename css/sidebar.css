@@ -2,7 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14px;
-    height: 100vh;
+    height: fit-content;
     display: flex;
     justify-content: center;
     background-color: #251b1b;
@@ -66,6 +66,7 @@ body {
 .sidebar-links li {
     padding: 0 15px;
     margin-bottom: 60px;
+    list-style-type: none;
 
 }
 
@@ -92,6 +93,7 @@ body {
     text-align: center;
     background-color:#ED3024 ;
     color: white;
+    border: none;
 }
 
 .right-btn {
@@ -102,4 +104,5 @@ body {
     text-align: center;
     background-color: #3137C9;
     color: white;
+    border: none;
 }
