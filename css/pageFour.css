@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet");
+
+
+.main-container {
+    background-color: #181818;
+}
+
+.page-section {
+    background-color: #202020;
+}
+
+
+.title-page-two {
+   gap:30px;
+    color: white;
+    font-family: Roboto,sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.page-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+
+
+.text-container {
+    color: #FFFFFF;
+    max-width: 50%;
+    padding: 30px 35px;
+}
+
+.img-container {
+    max-width: 50%;
+}
+
+.title-work {
+    padding:  30px 0;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size:24px;
+    line-height: 28px;
+}
+
+.text-container-text {
+    color: #D2D2D2;
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.link-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 25px;
+    color: #FFFFFF;
+}
+
+.link-page-1 {
+    width: 56px;
+    height: 21px;
+    border: 1px solid #EA8C1E;
+    background-color: #EA8C1E;
+    border-radius: 3px;
+}
+
+.link-page-2 {
+    width: 56px;
+    height: 21px;
+    padding: 0 10px;
+    border: 1px solid #EA8C1E;
+    background-color: #EA8C1E;
+    border-radius: 3px;
+}
+
+.link-page-3 {
+    width: 56px;
+    height: 21px;
+    padding: 0 10px;
+    border: 1px solid #EA8C1E;
+    background-color: #EA8C1E;
+    border-radius: 3px;
+}
+
+.page-four-btn {
+    width: 56px;
+    height: 21px;
+    color: #FFFFFF;
+    background-color: #3137C9;
+    border-radius: 5px;
+}
