@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>вход</title>
-    <link rel="stylesheet" href="css/header.css">
+    <title>registration</title>
     <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/formlog.css">
+    <link rel="stylesheet" href="css/regform.css">
 </head>
 <body>
 <div class="root-container">
@@ -67,23 +68,33 @@
 
         <main>
             <form>
-                <div class="form-container">
-                    <div class="title-form">
-                        <h4>Вход</h4>
+                <div class="form-wrapper">
+                    <div class="form-container">
+                        <div class="title-form">
+                            <h4>Профиль</h4>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-login" placeholder="Александр Провостин" disabled>
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-login" placeholder="alex.provo@mail.com" disabled>
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-login" placeholder="новый пароль">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-login" placeholder="подтвердить пароль">
+                        </div>
+                        <div class="btn-form-wrapper">
+                            <button type="submit" class="btn-form">Сохранить</button>
+                        </div>
                     </div>
-                    <div class="mb-3">
-                    <input type="email" class="form-login"  placeholder="alex.provo@mail.com" disabled>
+                    <div class="avatar-container">
+                        <img src="css/images/avatar.png" alt="Avatar">
+                        <div class="links-form">
+                            <a class="form-pass">Выбрать аватар</a>
+                        </div>
                     </div>
-                </div>
-                <div class="mb-3">
-                    <input type="password" class="form-login" placeholder="пароль">
-                </div>
-                <div class="btn-form">
-                <button type="submit" class="btn-form">Войти</button>
-                </div>
-                <div class="links-form">
-                    <a class="form-pass">Восстановить</a>
-                    <a class="form-reg">Регистрация</a>
                 </div>
             </form>
         </main>

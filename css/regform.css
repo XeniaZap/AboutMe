@@ -1,12 +1,25 @@
-.mb-3 {
-display: flex;
+.prof-container {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 150px;
+}
+
+.links-form {
+    display: flex;
+   font-size: 14px;
+    line-height: 16px;
+    color: #107EFF;
+    text-decoration: underline;
+    padding: 0 15px;
+}
+
+.mb-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
     position: relative;
     margin-bottom: 20px;
-
-
 }
 
 .title-form {
@@ -17,39 +30,47 @@ display: flex;
     font-family: Roboto, sans-serif;
     font-size: 21px;
     line-height: 21px;
-    padding: 60px 300px;
+    padding: 60px 25px;
 }
 
 .form-login {
     color: #FFFFFF;
-    width: 100%;
     background-color: #251b1b;
     border: 1px solid #251b1b;
-    margin-bottom: 25px;
     height: 25px;
-   border-bottom: #828282;
     padding:0 8px;
+
 }
 
 .btn-form {
-    display: block;
-   text-align: center;
-
-    margin: 0 auto;
     color: #FFFFFF;
     background-color: #3137C9;
     border-radius: 5px;
-    width: 64px;
+    width: 90px;
     height: 30px;
-    margin-bottom: 20px;
+font-family: Roboto,sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+
 }
 
-.links-form {
+
+.form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.btn-form-wrapper {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    text-decoration: none;
-    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+
+.avatar-container img {
+    margin-top:150px ;
 }
 
 .form-login:focus {
@@ -65,4 +86,10 @@ display: flex;
     width: 100%;
     height: 1px;
     background-color: #3F3F3F;
+}
+
+.form-login::placeholder {
+    vertical-align: bottom;
+    position: relative;
+    top: 5px;
 }
