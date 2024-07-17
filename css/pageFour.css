@@ -3,6 +3,9 @@
 
 .main-container {
     background-color: #181818;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
 }
 
 .page-section {
